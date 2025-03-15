@@ -1,0 +1,1 @@
+//Config.passages.nobr = true;    //Zeilenumbrüche werden nicht automatisch generiert. Nutze dafür <br>.
