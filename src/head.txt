@@ -1,1 +1,1 @@
-<meta name="author" content="Your Name Here">
+<meta name="author" content="Christian Hoffmann">

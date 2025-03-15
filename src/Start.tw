@@ -1,5 +1,12 @@
 :: Start
-<h2>Start</h2>
+
+<h2>Willkommen zu Zuckerwürfel</h2>
 <p>
-    Starten Sie Ihre Anwendung hier.
+    Willkommen zu Zuckerwürfel.
+    Dieses Tutorial wird Sie in die Verwendung dieses Frameworks einführen.
 </p>
+<div id="signature">
+    Christian Hoffmann
+</div>
+
+[[Start|Compiler]]

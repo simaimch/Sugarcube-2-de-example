@@ -1,0 +1,9 @@
+ul.advantages{
+    color: hsl(120, 50%, 70%);
+    list-style: "+";
+}
+
+ul.disadvantages {
+    color: hsl(0, 50%, 70%);
+    list-style: "-";
+}

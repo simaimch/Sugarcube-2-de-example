@@ -1,0 +1,58 @@
+:: Compiler
+<h2>Compiler</h2>
+
+<p>
+    Für die Entwicklung von ZuckerWürfel-Anwendungen stehen zwei Optionen zur Verfügung:
+    <ul>
+        <li>Twinery</li>
+        <li>Tweego</li>
+    </ul>
+</p>
+
+<h3>Twinery</h3>
+<p>
+    Twinery ist ein Online-Tool.
+    <a href="https://twinery.org/">Website von Twinery</a>
+</p>
+<p>
+    Vorteile von Twinery:
+    <ul class="advantages">
+        <li>Keine zusätzliche Software notwendig. Nur ein moderner Browser wird benötigt.</li>
+    </ul>
+</p>
+<p>
+    Nachteile von Twinery:
+    <ul class="disadvantages">
+        <li>Keine Ordnerstruktur für Passagen, JS- und CSS-Dateien. Große Projekte werden so schnell unübersichtlich.</li>
+        <li>Der gesamte JS-Code befindet sich in einem Fenster. Auch dies führt zu reduzierter Übersichtlichkeit. Das gilt analog für CSS.</li>
+        <li>Kein Versionsmanagement und keine interne Lösung für die Kollaboration mehrerer Entwickler.</li>
+        <li>Sehr große Geschichten (~1000+ Passagen) können mit Twinery aufgrund von Performanceproblemen nicht effizient bearbeitet werden.</li>
+    </ul>
+</p>
+
+<h3>Tweego</h3>
+<p>
+    Tweego ist ein Programm mit einem Kommandozeilen-Interface (CLI).
+    <a href="https://www.motoslave.net/tweego/">Website von Tweego</a>
+</p>
+<p>
+    Vorteile von Tweego:
+    <ul class="advantages">
+        <li>Passagen, JS- und CSS- Dateien können beliebig in Unterordnern des Quelltextordners geordnet werden. Bei großen Projekten erhöht dies die Übersichtlichkeit erheblich.</li>
+        <li>Tweego compiliert auch extremst große Projekte. Die Limitation der Größe basiert hier nur auf dem vom Nutzer verwendeten Browser.</li>
+        <li>Der Quelltext, den Tweego einliest, kann über zusätzliche Scripte (u.a. Python und NodeJS) vorbearbeitet werden. So ist z.B. die Verwendung von TypeScript statt JS möglich, wenn Tweego TSC vorgeschaltet wird.</li>
+        <li>Versionsmanagement, z.B. über GIT, ist möglich.</li>
+    </ul>
+</p>
+<p>
+    Nachteile von Tweego:
+    <ul class="disadvantages">
+        <li>Tweego muss als zusätzliche Software ausgeführt werden. Dies ist nicht in jeder Umgebung (insbesondere bei eingeschränkten Nutzerrechten) möglich.</li>
+        <li>
+            Die komfortable Verwendung von Tweego von Nutzern, die mit CLIs nicht vertraut sind,
+            erfordert die Ausführung einer Batch-Datei oder eine entsprechend konfiguriertes IDE.
+            Hierfür gilt dieselbe Einschräkung wie für Tweego selbst.
+        </li>
+        <li>Die Entwicklung des Quelltextes muss über eine zusätzliche IDE erfolgen (ein beliebiger Texteditor).</li>
+    </ul>
+</p>
