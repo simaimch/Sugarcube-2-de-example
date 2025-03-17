@@ -1,0 +1,33 @@
+name: TypeScript Build and FTP Upload
+
+on:
+  push:
+    branches:
+      - main
+      - dev
+
+jobs:
+  frontend:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Prepare Shell
+      run: chmod +x ./compile.sh
+
+    - name: Tweego
+      run: ./compile.sh
+
+    - name: Upload frontend
+      uses: pressidium/lftp-mirror-action@v1
+      with:
+        host: ${{ secrets.FTP_SERVER }}
+        user: ${{ secrets.FTP_USERNAME }}
+        pass: ${{ secrets.FTP_PASSWORD }}
+        onlyNewer: true
+        reverse: true
+        localDir: './bin'
+        remoteDir: '${{ secrets.FTP_FOLDER }}'
+        options: '--verbose'
