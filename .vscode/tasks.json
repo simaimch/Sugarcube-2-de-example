@@ -21,7 +21,22 @@
             },
             "problemMatcher": [],
             "dependsOn": [
+                "TypeScript"
             ]
-        }
+        },
+        {
+            "type": "typescript",
+            "tsconfig": "./tsconfig.json",
+            "problemMatcher": [
+                "$tsc"
+            ],
+            "presentation": {
+                "panel": "dedicated",
+            },
+            "group": {
+                "kind": "build"
+            },
+            "label": "TypeScript"
+        },
     ]
 }

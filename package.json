@@ -1,0 +1,15 @@
+{
+  "name": "sugarcube-2-de-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Christian Hoffmann",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/twine-sugarcube": "^2.37.2",
+    "typescript": "^5.8.2"
+  }
+}

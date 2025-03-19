@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "amd",
+        "sourceMap": false,
+        "outFile": "src/typescript.js",
+    },
+    "include": [
+        "src/**/*",
+    ]
+}
