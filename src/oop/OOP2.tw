@@ -1,0 +1,8 @@
+:: OOP2
+<p>
+    Auf dieser Passage stehen die Charaktere wieder zur Verfügung (inklusive der Felder und Methoden ihrer Klasse).
+</p>
+<ul>
+    <li>$a.name ist $a.alterInJahren Jahre ($a.alterInTagen Tage) alt.</li>
+    <li>$b.name ist $b.alterInJahren Jahre ($b.alterInTagen Tage) alt.</li>
+</ul>

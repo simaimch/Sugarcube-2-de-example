@@ -1,0 +1,12 @@
+:: OOP1
+
+<p>
+    In dieser Passage werden zwei neue Objekte vom Typ SpielCharacter erzeugt. Diese werden anschließend serialisiert.
+</p>
+
+<p>
+    [[Weiter|OOP2]]
+</p>
+
+<<setze $a = new SpielCharacter("Hans","18.02.1987")>>
+<<setze $b = new SpielCharacter("Klaus","24.12.2012")>>
